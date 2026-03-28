@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar__container">
+    <a href="index.html" id="navbar__logo">Maison Shardee</a>
+
+    <ul class="navbar__menu">
+      <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+      <li class="navbar__item"><a href="products.html" class="navbar__link">Shop</a></li>
+      <li class="navbar__item"><a href="login.html" class="navbar__link">Login</a></li>
+      <li class="navbar__item"><a href="register.html" class="navbar__link">Register</a></li>
+      <li class="navbar__item"><a href="cart.html" class="navbar__link">Cart</a></li>
+      <li class="navbar__btn"><a href="checkout.html" class="button">Checkout</a></li>
+    </ul>
+  </div>
+</nav>
+
+<h2>Checkout</h2>
+
+<form onsubmit="return validateCheckout()">
+
+    <!-- Customer Name -->
+    <label>Name:</label><br>
+    <input type="text" id="custName" placeholder="Enter your name"><br><br>
+
+    <!-- Address -->
+    <label>Address:</label><br>
+    <input type="text" id="address" placeholder="Enter your address"><br><br>
+
+    <!-- Buttons -->
+    <button type="submit">Confirm Order</button>
+    <button type="button" onclick="clearCart()">Clear Cart</button>
+    <button type="button" onclick="window.location.href='cart.html'">Cancel</button>
+
+    <h3 id="checkoutTotal"></h3>
+    
+</form>
+
+<script src="../script.js"></script>
+</body>
+</html>

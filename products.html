@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar__container">
+    <a href="index.html" id="navbar__logo">Maison Shardee</a>
+
+    <ul class="navbar__menu">
+      <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+      <li class="navbar__item"><a href="products.html" class="navbar__link">Shop</a></li>
+      <li class="navbar__item"><a href="login.html" class="navbar__link">Login</a></li>
+      <li class="navbar__item"><a href="register.html" class="navbar__link">Register</a></li>
+      <li class="navbar__item"><a href="cart.html" class="navbar__link">Cart</a></li>
+      <li class="navbar__btn"><a href="checkout.html" class="button">Checkout</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="products-container">
+
+<h2>Our Products</h2>
+
+<div class="product">
+    <img src="../Assets/checkeredshirt.jpg" alt="Maison Shardee Checkered Button Down Shirt">
+    <h3>Checkered Button Down Shirt</h3>
+    <p>$30</p>
+    <button onclick="addToCart('Checkered Shirt', 30)">Add to Cart</button>
+</div>
+
+<div class="product">
+   <img src="../Assets/Miniskirtset.jpg" alt="Mini Skirt Set">
+    <h3>Mini Skirt Set</h3>
+    <p>$45</p>
+    <button onclick="addToCart('Mini Skirt Set', 45)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="../Assets/Dress.jpg" alt="Maison Shardee Dress">
+    <h3>Dress</h3>
+    <p>$60</p>
+    <button onclick="addToCart('Dress', 60)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="../Assets/jeans.jpg" alt="Maison Shardee Ripped Boyfriend Jeans">
+    <h3>Ripped Boyfriend Jeans</h3>
+    <p>$50</p>
+    <button onclick="addToCart('Jeans', 50)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="../Assets/midi.jpg" alt="Maison Shardee Midi Dress">
+    <h3>Midi Dress</h3>
+    <p>$30</p>
+    <button onclick="addToCart('Midi Dress', 30)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="../Assets/tank.jpg" alt="Maison Shardee Tank Top">
+    <h3>Tank Top</h3>
+    <p>$15</p>
+    <button onclick="addToCart('Tank Top', 15)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="../Assets/Minidress.jpg" alt="Maison Shardee Mini Dress">
+    <h3>Mini Dress</h3>
+    <p>$35</p>
+    <button onclick="addToCart('Mini Dress', 35)">Add to Cart</button>
+</div>
+
+</div>
+
+<script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart - Maison Shardee</title>
+    <link rel="stylesheet" href="../Style.css">
+</head>
+<body onload="displayCart()">
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar__container">
+    <a href="index.html" id="navbar__logo">Maison Sharde</a>
+
+    <div class="navbar__toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <ul class="navbar__menu">
+      <li class="navbar__item"><a href="index.html" class="navbar__link">Home</a></li>
+      <li class="navbar__item"><a href="products.html" class="navbar__link">Products</a></li>
+      <li class="navbar__item"><a href="login.html" class="navbar__link">Login</a></li>
+      <li class="navbar__item"><a href="register.html" class="navbar__link">Register</a></li>
+      <li class="navbar__item"><a href="cart.html" class="navbar__link">Cart</a></li>
+      <li class="navbar__btn"><a href="checkout.html" class="button">Checkout</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Cart -->
+<h2>Your Cart</h2>
+
+<div id="cart-items"></div>
+
+<h3 id="total">Total: $0</h3>
+
+<!-- Java script -->
+<script src="../script.js"></script>
+
+</body>
+</html>
