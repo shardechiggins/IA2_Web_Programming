@@ -65,7 +65,7 @@ nav a:hover {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-image: url("../Assets/mainpagepic.jpeg");
+    background-image: url("mainpagepic.jpeg");
     background-size: contain;
     background-position: center;
     position: relative;
